@@ -10,6 +10,36 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+#mifoto{
+  width: 150px;
+  height: 150px; 
+}
+#hab{
+  color:midnightblue;
+}
+.callout-text{
+  font-style: var(--bs-accordion-btn-color);
+}
+#tumensaje{
+  resize: none;
+}
+#borde{
+  background-color: #c8dbe0;
+}
+/* Archivo CSS */
+.btn-gradient {
+  background: linear-gradient(45deg, #00b4d8, #0077b6);
+  color: white;
+  border: none;
+}
+
+.fondo{
+  background-image: url(inicio.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
