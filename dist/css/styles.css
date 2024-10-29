@@ -14,8 +14,16 @@
   width: 150px;
   height: 150px; 
 }
+.bg-gradient {
+  background: linear-gradient(45deg, #00b4d8, #0077b6);
+  color: white;
+  border: none;
+}
 #hab{
   color:midnightblue;
+}
+#titulo1{
+  color:linear-gradient(45deg, #00b4d8, #0077b6);
 }
 .callout-text{
   font-style: var(--bs-accordion-btn-color);
@@ -148,7 +156,14 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
 }
-
+.foto-interectiva{
+  width: 200px;          /* Ajusta el tamaño según tu necesidad */
+  object-fit: cover;
+  transition: transform 0.3s ease; 
+}
+.foto-interactiva:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
